@@ -1,4 +1,5 @@
 import 'package:app_portfolio/screens/profile_screen.dart';
+import 'package:app_portfolio/screens/projects_screen.dart';
 import 'package:app_portfolio/screens/stacks_screen.dart';
 import 'package:app_portfolio/theme/colors.dart';
 import 'package:flutter/material.dart';
@@ -16,7 +17,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
   final List<Widget> screens = [
     ProfileScreen(),
-    StacksScreen()
+    StacksScreen(),
+    ProjectsScreen()
   ];
 
   void selecionarIndex(int index) {
@@ -41,7 +43,8 @@ class _HomeScreenState extends State<HomeScreen> {
         child: BottomNavigationBar(
           items: [
             BottomNavigationBarItem(icon: Icon(Icons.person), label: "Home"),
-            BottomNavigationBarItem(icon: Icon(Icons.code), label: "Stacks")
+            BottomNavigationBarItem(icon: Icon(Icons.code), label: "Stacks"),
+            BottomNavigationBarItem(icon: Icon(Icons.computer), label: "Projects"),
           ],
           iconSize: 40,
           
