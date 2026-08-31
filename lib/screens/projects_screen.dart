@@ -16,7 +16,8 @@ class ProjectsScreen extends StatelessWidget {
         child: SizedBox(
           child: Column(
             children: [
-              ProjectContainer(title: "Lighter", description: "Um aplicativo para unir terapeutas e seus pacientes", year: 2024)
+              ProjectContainer(title: "Lighter", description: "Um aplicativo para unir terapeutas e seus pacientes", year: 2024),
+              ProjectContainer(title: "SmartPack.AI", description: "Um chatbot engenheiro para responder todas as duvidas sobre logistica e embalagens", year: 2026)
             ],
           ),
         ),

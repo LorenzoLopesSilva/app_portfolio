@@ -54,7 +54,7 @@ class StacksScreen extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  StackContainer(imgLink: "https://images.icon-icons.com/2699/PNG/512/sqlite_logo_icon_169724.png", label: "SQLite"),
+                  StackContainer(imgLink: "https://leadsbridge.com/wp-content/themes/leadsbridge/img/integration-lg-logos/logo543.png", label: "SQLite"),
                   StackContainer(imgLink: "https://img.icons8.com/fluent/1200/mysql-logo.jpg", label: "MySQL"),
                   StackContainer(imgLink: "https://img.icons8.com/color/1200/python--v2.jpg", label: "Python"),
 
