@@ -38,11 +38,11 @@ class ProfileScreen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       spacing: 10,
                       children: [
-                        StackMiniContainer(imgPath: "assets/images/flutter.png", label: "Flutter"),
-                        StackMiniContainer(imgPath: "assets/images/dart.png", label: "Dart"),
-                        StackMiniContainer(imgPath: "assets/images/python.png", label: "Python"),
-                        StackMiniContainer(imgPath: "assets/images/javascript.png", label: "JavaScript"),
-                        StackMiniContainer(imgPath: "assets/images/mysql.png", label: "MySQL"),
+                        StackMiniContainer(imgPath: "assets/images/stacks/flutter.png", label: "Flutter"),
+                        StackMiniContainer(imgPath: "assets/images/stacks/dart.png", label: "Dart"),
+                        StackMiniContainer(imgPath: "assets/images/stacks/python.png", label: "Python"),
+                        StackMiniContainer(imgPath: "assets/images/stacks/javascript.png", label: "JavaScript"),
+                        StackMiniContainer(imgPath: "assets/images/stacks/mysql.png", label: "MySQL"),
                         
                       ],
                     )

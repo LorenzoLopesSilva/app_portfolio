@@ -19,44 +19,44 @@ class StacksScreen extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  StackContainer(imgPath: "assets/images/flutter.png", label: "Flutter"),
-                  StackContainer(imgPath: "assets/images/dart.png", label: "Dart"),
-                  StackContainer(imgPath: "assets/images/firebase.png", label: "Firebase"),
+                  StackContainer(imgPath: "assets/images/stacks/flutter.png", label: "Flutter"),
+                  StackContainer(imgPath: "assets/images/stacks/dart.png", label: "Dart"),
+                  StackContainer(imgPath: "assets/images/stacks/firebase.png", label: "Firebase"),
                 ],
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  StackContainer(imgPath: "assets/images/supabase.png", label: "Supabase"),
-                  StackContainer(imgPath: "assets/images/javascript.png", label: "JavaScript"),
-                  StackContainer(imgPath: "assets/images/typescript.png", label: "TypeScript"),
+                  StackContainer(imgPath: "assets/images/stacks/supabase.png", label: "Supabase"),
+                  StackContainer(imgPath: "assets/images/stacks/javascript.png", label: "JavaScript"),
+                  StackContainer(imgPath: "assets/images/stacks/typescript.png", label: "TypeScript"),
 
                 ],
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  StackContainer(imgPath: "assets/images/tailwind.png", label: "Tailwind"),
-                  StackContainer(imgPath: "assets/images/angular.png", label: "Angular"),
-                  StackContainer(imgPath: "assets/images/react.png", label: "React"),
+                  StackContainer(imgPath: "assets/images/stacks/tailwind.png", label: "Tailwind"),
+                  StackContainer(imgPath: "assets/images/stacks/angular.png", label: "Angular"),
+                  StackContainer(imgPath: "assets/images/stacks/react.png", label: "React"),
 
                 ],
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  StackContainer(imgPath: "assets/images/fastapi.png", label: "FastAPI"),
-                  StackContainer(imgPath: "assets/images/django.png", label: "Django"),
-                  StackContainer(imgPath: "assets/images/mysql.png", label: "MySQL"),
+                  StackContainer(imgPath: "assets/images/stacks/fastapi.png", label: "FastAPI"),
+                  StackContainer(imgPath: "assets/images/stacks/django.png", label: "Django"),
+                  StackContainer(imgPath: "assets/images/stacks/mysql.png", label: "MySQL"),
 
                 ],
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  StackContainer(imgPath: "assets/images/java.png", label: "Java"),
-                  StackContainer(imgPath: "assets/images/spring.png", label: "Spring Boot"),
-                  StackContainer(imgPath: "assets/images/python.png", label: "Python"),
+                  StackContainer(imgPath: "assets/images/stacks/java.png", label: "Java"),
+                  StackContainer(imgPath: "assets/images/stacks/spring.png", label: "Spring Boot"),
+                  StackContainer(imgPath: "assets/images/stacks/python.png", label: "Python"),
 
                 ],
               ),

@@ -20,29 +20,15 @@ class ProjectsScreen extends StatelessWidget {
                   child: Column(
                     children: [
                       ProjectContainer(
-                        title: "Projeto Teste", 
-                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue rhoncus fringilla. Ut vel volutpat augue. Phasellus magna nisi, venenatis et lacus et, sagittis sodales eros. Donec ac arcu a ex congue aliquet. Ut ornare metus vel ex malesuada suscipit. Morbi laoreet massa quis tincidunt ultricies. Aenean imperdiet at neque id vehicula.", 
-                        stackPath1: "assets/images/flutter.png"
-                      ),
-                      ProjectContainer(
-                        title: "Projeto Teste", 
-                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue rhoncus fringilla. Ut vel volutpat augue. Phasellus magna nisi, venenatis et lacus et, sagittis sodales eros. Donec ac arcu a ex congue aliquet. Ut ornare metus vel ex malesuada suscipit. Morbi laoreet massa quis tincidunt ultricies. Aenean imperdiet at neque id vehicula.", 
-                        stackPath1: "assets/images/flutter.png"
-                      ),
-                      ProjectContainer(
-                        title: "Projeto Teste", 
-                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue rhoncus fringilla. Ut vel volutpat augue. Phasellus magna nisi, venenatis et lacus et, sagittis sodales eros. Donec ac arcu a ex congue aliquet. Ut ornare metus vel ex malesuada suscipit. Morbi laoreet massa quis tincidunt ultricies. Aenean imperdiet at neque id vehicula.", 
-                        stackPath1: "assets/images/flutter.png"
-                      ),
-                      ProjectContainer(
-                        title: "Projeto Teste", 
-                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue rhoncus fringilla. Ut vel volutpat augue. Phasellus magna nisi, venenatis et lacus et, sagittis sodales eros. Donec ac arcu a ex congue aliquet. Ut ornare metus vel ex malesuada suscipit. Morbi laoreet massa quis tincidunt ultricies. Aenean imperdiet at neque id vehicula.", 
-                        stackPath1: "assets/images/flutter.png"
-                      ),
-                      ProjectContainer(
-                        title: "Projeto Teste", 
-                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue rhoncus fringilla. Ut vel volutpat augue. Phasellus magna nisi, venenatis et lacus et, sagittis sodales eros. Donec ac arcu a ex congue aliquet. Ut ornare metus vel ex malesuada suscipit. Morbi laoreet massa quis tincidunt ultricies. Aenean imperdiet at neque id vehicula.", 
-                        stackPath1: "assets/images/flutter.png"
+                        projectInfo: ProjectInfo(
+                          year: 2024,
+                          title: "Ligther", 
+                          description: "Um aplicativo para conectar terapeutas e seus pacientes. O Lighter entrega um processo terapeutico mais completo e interativo.", 
+                          stackPath1: "assets/images/stacks/flutterflow.png",
+                          stackPath2: "assets/images/stacks/php.png",
+                          stackPath3: "assets/images/stacks/mysql.png",
+                          logo: "assets/images/projects/lighter.png",
+                        ),
                       ),
                     ],
                   ),
