@@ -1,4 +1,5 @@
 import 'package:app_portfolio/components/primary_title.dart';
+import 'package:app_portfolio/components/profile_card.dart';
 import 'package:app_portfolio/components/stack_mini_container.dart';
 import 'package:app_portfolio/theme/colors.dart';
 import 'package:flutter/material.dart';
@@ -12,45 +13,7 @@ class ProfileScreen extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Container(
-            decoration: BoxDecoration(
-              color: primary,
-            ),
-            child: SizedBox(
-              width: double.infinity,
-              child: Padding(
-                padding: EdgeInsets.fromLTRB(20, 80, 20, 20),
-                child: Column(
-                  spacing: 5,
-                  children: [
-                    Container(
-                      width: 150,
-                      clipBehavior: Clip.hardEdge,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(1000),
-                      ),
-                      child: Image.network("https://avatars.githubusercontent.com/u/122306207?v=4", fit: BoxFit.fill,)
-                    ),
-                    Text(
-                      "Lorenzo Lopes",
-                      style: TextStyle(
-                        fontSize: 20,
-                        color: background,
-                        fontWeight: FontWeight.bold
-                      ),
-                    ),
-                    Text(
-                      "Web | Mobile Developer",
-                      style: TextStyle(
-                        fontSize: 16,
-                        color: background,
-                      ),
-                    )
-                  ],
-                ),
-              )
-            ),
-          ),
+          ProfileCard(),
           Padding(
             padding: EdgeInsets.all(20),
             child: Column(
@@ -72,10 +35,14 @@ class ProfileScreen extends StatelessWidget {
                   children: [
                     PrimaryTitle(text: "Main Skills"),
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       spacing: 10,
                       children: [
                         StackMiniContainer(imgPath: "assets/images/flutter.png", label: "Flutter"),
                         StackMiniContainer(imgPath: "assets/images/dart.png", label: "Dart"),
+                        StackMiniContainer(imgPath: "assets/images/python.png", label: "Python"),
+                        StackMiniContainer(imgPath: "assets/images/javascript.png", label: "JavaScript"),
+                        StackMiniContainer(imgPath: "assets/images/mysql.png", label: "MySQL"),
                         
                       ],
                     )
